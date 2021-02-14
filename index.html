@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header></header>
+        <!-- top section  -->
+        <section class="upper-segment" >
+            <!-- left side of top section(logo and client-address) -->
+            <div id="left-logo-div">
+                <!-- displaying logo -->
+                <img src="images/company logo.png" alt="">
+                <!-- showing client address -->
+                <div class="client-address">
+                    <hr class="dotted-green-line">
+                    <h3>CLIENT</h3>
+                    <ul>
+                        <li id="address-title">Cafe Le Bastille</li>
+                        <li>42 Boulevard</li>
+                        <li>Saint-Germain</li>
+                        <li>75006 Paris</li>
+                        <li>France</li>
+                    </ul>
+                    <p>GBT/HBT Number: 202205029</p>
+                    <p>Email:cafe@bastille.com</p>
+               </div>
+               <hr class="dotted-green-line">
+            </div>
+             <!-- right side of top section(invoice,issued by, shipping,payment) -->
+            <div id="right-invoice-div">
+                <!-- upper part of right-top(invoice,issued by) -->
+                <div id="invoice-top-part">
+                    <!-- <hr class="solid-green-line"> -->
+                    <!-- left upper-right-top(invoice title,dates) -->
+                    <div class="invoice-left">
+                        <h1 id="invoice-title">INVOICE</h1>
+                        <p>ID 2016-10014</p>
+                        <div id="date-details">
+                            <h5>Issue Date<span class="date-part">Nov 9, 2016</span></h5>
+                            <hr>
+                            <h5>Delivery Date <span class="date-part">Nov 9, 2016</span></h5>
+                            <hr>
+                            <h5>Due Date <span class="date-part">Nov 23, 2016</span></h5>
+                            <hr>
+                       </div>
+                    </div>
+                    <!-- right upper-right-top(issued by) -->
+                    <div class="invoice-right">
+                         <h3>ISSUED BY</h3>
+                         <ul id="issued-by-ul">
+                             <li class="address-title">Acme Shop</li>
+                             <li>185 Portbello Rd</li>
+                             <li>London W11 1LA</li>
+                             <li>United Kingdom</li>
+                         </ul>
+                         <p>VAT Number: GB202205029</p>
+                    </div>
+                </div>
+
+                <!-- bottom part of right-top(shipping,payment) -->
+                <div id="invoice-bottom-part">
+                    <hr class="dotted-green-line">
+                    <!-- left bottom-right-top(shipping) -->
+                    <div class="invoice-left">
+                        <h3>SHIPPING ADDRESS</h3>
+                        <ul>
+                            <li class="address-title">Cafe Le Bastille</li>
+                            <li>42 Boulevard</li>
+                            <li>Saint-Germain</li>
+                            <li>75006 Paris</li>
+                            <li>France</li>
+                        </ul>
+                    </div>
+                    <!-- right bottom-right-top(payment) -->
+                    <div class="invoice-right">
+                        <h3>PAYMENT</h3>
+                        <table>
+                            <tr>
+                              <th>Payment Method</th>
+                              <td>Bank Transfer</td> 
+                            </tr>
+                            <tr>
+                                <th>Bank Account</th>
+                                <td>8900 0000 0175 7814</td> 
+                            </tr>
+                            <tr>
+                                <th>Order Number</th>
+                                <td>12345</td> 
+                            </tr>
+                            <tr id="blank-table-row">
+                                <td></td>
+                            </tr> 
+                            <tr >
+                                <th>Payment Details</th>
+                                <td>Lorem ipsum</td> 
+                            </tr>
+                            <tr>
+                                <th>Payment Terms</th>
+                                <td>Net 15</td> 
+                            </tr>
+                            <tr>
+                                <th>PO Number</th>
+                                <td>581660</td> 
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <hr class="dotted-green-line">
+            </div>
+        </section>
+        <!-- middle calculation table -->
+        <section id="calculation-part">
+            <table>
+                <tr>
+                    <th>ITEM</th>
+                    <th>DESCRIPTION</th>
+                    <th class="column-space">QUANTITY</th>
+                    <th class="column-space">UNIT</th>
+                    <th class="column-space">TAX</th>
+                    <th class="column-space">TOTAL</th>
+                </tr>
+                <tr>
+                    <td>Best of First Nibs</td>
+                    <td>67% Cacao</td>
+                    <td>7</td>
+                    <td>$9.95</td>
+                    <td>20%</td>
+                    <td>$69.65</td>
+                </tr>
+                <tr>
+                    <td>Pink Sea Salt</td>
+                    <td>71% Cacao</td>
+                    <td>3</td>
+                    <td>$7.95</td>
+                    <td>20%</td>
+                    <td>$23.85</td>
+                </tr>
+                <tr>
+                    <td>Maple and Nibs</td>
+                    <td>75% Cacao</td>
+                    <td>2</td>
+                    <td>$6.95</td>
+                    <td>20%</td>
+                    <td>$13.90</td>
+                </tr>
+                <tr>
+                    <td>Coconut Milk</td>
+                    <td>60% Cacao</td>
+                    <td>6</td>
+                    <td>$8.95</td>
+                    <td>20%</td>
+                    <td>$53.70</td>
+                </tr>
+                <tr>
+                    <td>Smoked Chai</td>
+                    <td>66% Cacao</td>
+                    <td>4</td>
+                    <td>$7.95</td>
+                    <td>20%</td>
+                    <td>$31.80</td>
+                </tr>
+              </table>
+        </section>
+         <!-- bottom part -->
+        <section id="bottom-segment">
+            <!-- bottom left part(thanks part, online-platforms) -->
+             <div id="bottom-left">
+                <div id="online-platforms">
+                    <div class="online-half">
+                        <h4>Thank You For Your Purchase</h4>
+                        <ul>
+                            <li>Acme Ltd.</li>
+                            <li>email:<a href="#">hello@acme.com</a></li>
+                            <li>website:<a href="#">www.acme.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="online-half">
+                        <ul>
+                            <li id="blank-list-item"></li>
+                            <li>facebook:<a href="#">facebook.acme</a></li>
+                            <li>twitter:<a href="#">twitter.acme</a></li>
+                        </ul>
+                    </div>
+                 </div>
+                 <!-- <hr class="solid-green-line"> -->
+              </div>
+              <!-- bottom right part(total, notes,creator) -->
+              <div id="bottom-right">
+                 <table>
+                    <tr>
+                        <th>TOTAL</th>
+                        <td>$192.90 USD</td>
+                    </tr>
+                    <tr>
+                        <th>VAT 20%</th>
+                        <td>$38.58 USD</td>
+                    </tr>
+                    <tr id="last-total-row">
+                        <th>TOTAL INCL.VAT</th>
+                        <td>$231.48 USD</td>
+                    </tr>
+                 </table>
+                 <div id="notes">
+                    <h4>Notes</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti adipisci doloribus ad quisquam laborum nam ratione velit quas, nisi quod, tenetur soluta delectus qui at iste aliquid? Distinctio, voluptatem, modi consectetur ex dolorum id quis alias placeat maiores doloribus quod?</p>
+                     <img src="images/developer.png" alt="">
+                    <h4 id="designer">Created by Jubayer</h4>
+                    <!-- <hr class="solid-green-line"> -->
+                  </div>
+             </div> 
+        </section>
+    </main>
+    
+</body>
+<footer>   
+</footer>
+</html>

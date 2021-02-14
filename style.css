@@ -1,0 +1,196 @@
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+header{
+    height: 40px;
+    background-color: indianred;
+}
+.upper-segment{
+    font-size: 14px;
+    height: 400px;
+}
+#left-logo-div{
+    width: 35%;
+    float: left;
+    height: 400px;
+}
+#left-logo-div img{
+    width: 50%;
+    height:150px
+
+}
+.client-address{
+    margin-top: 27px;
+    height:187px;
+    padding-bottom: 15px;
+}
+
+#right-invoice-div{
+    width: 62%;
+    float: right;
+    height: 400px;
+}
+#invoice-top-part{
+    height: 150px;
+}
+hr{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top:0.1em solid green;
+}
+.solid-green-line { 
+    
+    border-top:0.2em solid green;
+}
+.dotted-green-line{
+    
+    border-top:0.1em dashed green;
+    
+}
+.invoice-left{
+    width: 40%;
+    float: left;
+}
+#invoice-title{
+    color: darkmagenta;
+    margin-bottom: 0;
+}
+.invoice-left p{
+    margin-top: 0;
+}
+#date-details h5{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;;
+}
+.date-part{
+    font-weight: 200;
+    padding-left: 3px;
+}
+.invoice-right{
+    width: 50%;
+    float:right;
+    margin-right: 50px;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+    
+}
+#issued-by-ul{
+    
+    margin-bottom: 25px;
+}
+.address-title{
+    font-weight: 700;
+}
+#invoice-bottom-part{
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 59px;
+}
+#payment-second-part{
+    margin-top: 50px;
+}
+table{
+    width:100%;
+    text-align:left;
+    border-collapse: collapse;
+}
+#blank-table-row{
+    height: 12px;
+}
+#calculation-part{
+    /* border: 1px solid blue; */
+    margin-top: 40px;
+    height: 197px;
+    font-size: small;
+}
+#calculation-part th{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* border-bottom: 0.2em solid green; */
+    background-color: rgb(216, 108, 108);
+}
+#calculation-part td{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 0.1em dashed grey;
+}
+#calculation-part tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.column-space{
+    width: 99px;
+}
+#bottom-segment{
+    height: 400px;
+    margin-top: 0px;
+}
+#bottom-left{
+    width: 64.5%;
+    float: left;
+    padding-top: 250px;
+    font-size:14px;
+}
+#online-platforms{
+    height: 100px;
+     font-size:medium;
+}
+.online-half{
+    width: 40%;
+    float: left;
+    padding-left: 5px;
+}
+#blank-list-item{
+    height: 65px;
+}
+#bottom-right{
+    width: 35%;
+    float: right;
+    height: 400px;
+    font-size:14px;
+    background-color: lightgrey;
+}
+#bottom-right td{
+    padding-top: 8px;
+    padding-bottom:8px;
+    width: 100px;
+    border-bottom: 0.1em solid rgb(216, 108, 108);
+}
+#bottom-right th{
+    border-bottom: 0.1em solid rgb(216, 108, 108);
+}
+#last-total-row td{
+    background-color: rgb(216, 108, 108);
+    color: white;
+}
+#last-total-row th{
+    border-bottom: 0.2em solid rgb(216, 108, 108);
+}
+#notes{
+    margin-top: 30px;
+}
+#notes img{
+    width: 40px;
+    height: 40px;
+    margin-top: 54px;
+    padding-left: 20px;
+}
+#designer{
+    margin-top: 0px;
+    padding-left: 10px;
+}
+footer{
+    
+    height: 40px;
+    background-color: indianred;
+}
+
+
+
+
+
+
